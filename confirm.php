@@ -55,8 +55,8 @@ $message = htmlspecialchars($_POST['message']??'',ENT_QUOTES,'UTF-8');
 </tr>
 <tr>
         <th>会社名</th>
-        <td><
-            <php echo $companyName; ?>
+        <td>
+            <?php echo $companyName; ?>
                 <input type="hidden" name="companyName"value="<?php echo $companyName;?>">
     </td>
 </tr>
