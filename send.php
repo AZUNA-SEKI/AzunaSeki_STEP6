@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD']!=='POST'){
 //1つ前の確認画面からPOSTで送られてきたデータを受け取る
 $name=$_POST['name']??'';
 $companyName=$_POST['companyName']??'';
-$email-$_POST['email']??'';
+$email=$_POST['email']??'';
 $age=$_POST['age']??'';
 $message=$_POST['message']??'';
 

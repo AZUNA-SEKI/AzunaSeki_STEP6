@@ -69,6 +69,7 @@ $message = htmlspecialchars($_POST['message']??'',ENT_QUOTES,'UTF-8');
 </tr>
 <tr>
         <th>年齢</th>
+        <td>
         <?php echo $age; ?>
             <input type="hidden" name="age" value="<?php echo $age;?>">
         </td>
@@ -77,12 +78,12 @@ $message = htmlspecialchars($_POST['message']??'',ENT_QUOTES,'UTF-8');
         <th>お問い合わせ内容</th>
         <td>
             <?php echo nl2br($message);?>
-            <input type="hidden" name="message" value="<?php echo $message; ?>
+            <input type="hidden" name="message" value="<?php echo $message; ?>">
         </td>
 </tr>
 </table>
 <input type="submit" value="送信"><br>
-<input type="button" onclick="戻る">
+<input type="button" value="戻る" onclick="history.back();">
 </form>
 </body>
 </html>

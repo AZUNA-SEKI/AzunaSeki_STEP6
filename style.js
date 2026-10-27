@@ -6,8 +6,8 @@ if (contactForm){
         const name = document.getElementById('name').value;
         const companyName = document.getElementById('companyName').value;
         const email = document.getElementById('email').value;
-        const age = document.getElementBbyId('age').value;
-        const message = documentElementById('message').value;
+        const age = document.getElementById('age').value;
+        const message = document.getElementById('message').value;
 
         //未入力の項目があるかチェック
         if(name ===''|| companyName ===''|| email ===''||age ===''||message ===''){
