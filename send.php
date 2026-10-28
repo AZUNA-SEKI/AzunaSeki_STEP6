@@ -50,6 +50,7 @@ if(mail($to,$subject,$body,$headers)){
         <li><a href="contact.php">お問い合わせフォームに戻る</a></li>
 </ul>
 </nav>
+</body>
 </html>
 
 

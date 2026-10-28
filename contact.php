@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>お問い合わせフォーム</title>
+        <link rel="stylesheet" href="style.css">
         
 </head>
 <body>
@@ -23,23 +24,23 @@
 <table border="3px">
     <tr>
         <th>お名前</th>
-        <td><input type="text" name="name" size="40"></td>
+        <td><input type="text" name="name" id="name" size="40"></td>
 </tr>
 <tr>
         <th>会社名</th>
-        <td><input type="text" name="companyName" size="40"></td>
+        <td><input type="text" name="companyName" id="companyName" size="40"></td>
 </tr>
 <tr>
         <th>メールアドレス</th>
-        <td><input type="text" name="email" size="40"></td>
+        <td><input type="text" name="email" id="email" size="40"></td>
 </tr>
 <tr>
         <th>年齢</th>
-        <td><input type="text" name="age" size="40"></td>
+        <td><input type="text" name="age" id="text" size="40"></td>
 </tr>
 <tr>
         <th>お問い合わせ内容</th>
-        <td><textarea name="message" rows="4" cols="40"></td>
+        <td><textarea name="message" id="message" rows="4" cols="40"></textarea></td>
 </tr>
 </table>
 <!--inputタグを使った送信ボタン-->
@@ -52,6 +53,7 @@
 <footer>
 <button id="try">押してみてね！</button>
 </footer>
+<script src="style.js"></script>
 </body>
 </html>
 

@@ -15,7 +15,13 @@ if (contactForm){
             e.preventDefault();//送信をキャンセル
         }else{
             //すべて入力されている場合確認ダイアログを表示する
-            const result = confirm('以下の内容で送信します。よろしいですか？');
+            const result = confirm(`以下の内容で送信します。よろしいですか？
+            お名前:${name}
+            会社名:${companyName}
+            メールアドレス:${email}
+            年齢:${age}
+            お問い合わせ内容:${message}`);
+
 
             //「キャンセル」が押された場合は送信をストップする
             if(!result){
@@ -26,7 +32,7 @@ if (contactForm){
 }
 
 //フッターの背景色を４色で循環させるボタン
-const tryButton = document.getElementById('try');
+const tryButton = document.querySelector('#try');
 const footer = document.querySelector('footer');
 
 if(tryButton && footer){
