@@ -36,7 +36,7 @@
 </tr>
 <tr>
         <th>年齢</th>
-        <td><input type="text" name="age" id="text" size="40"></td>
+        <td><input type="text" name="age" id="age" size="40"></td>
 </tr>
 <tr>
         <th>お問い合わせ内容</th>
